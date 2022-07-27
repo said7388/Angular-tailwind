@@ -1,0 +1,17 @@
+<section class="bg-white text-center projects-section p-3 md:p-12">
+    <p class="projects-sub">Projects</p>
+    <h3 class="projects-title">
+        Discover the latest Interior Design
+        <br />
+        available today
+    </h3>
+    <div class="projects grid grid-cols-1 md:grid-cols-3 gap-6 md:px-12">
+        <div *ngFor="let project of projects" class="project-card">
+            <img src={{project.img}} alt="" class="card-img">
+            <p class="card-title mt-6 mb-2">{{project.title}}</p>
+            <p class="card-location">
+                <fa-icon [icon]="faLocation" class="fa-icon"></fa-icon> {{project.location}}
+            </p>
+        </div>
+    </div>
+</section>

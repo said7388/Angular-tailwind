@@ -1,0 +1,15 @@
+.hero-title {
+    font-size: 60px;
+    font-weight: 700;
+    white-space: pre;
+}
+
+.hero-text {
+    color: #606268;
+    line-height: 30px;
+}
+
+.hero-banner img {
+    height: 520px;
+    width: 100%;
+}
